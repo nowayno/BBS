@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="entityframework.zh-hans" Version="6.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 

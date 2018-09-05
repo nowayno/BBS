@@ -13,9 +13,9 @@ namespace BBS.Models.Role
         [Required]
         [Column("ID", TypeName = "int")]
         public int ID { get; set; }
-        [Column("CreateTime", TypeName = "nvarchar")]
+        [Column("CreateTime", TypeName = "nvarchar(100)")]
         public string CreateDate { get; set; }
-        [Column("LoginTime", TypeName = "nvarchar")]
+        [Column("LoginTime", TypeName = "nvarchar(100)")]
         public string LoginDate { get; set; }
     }
 }

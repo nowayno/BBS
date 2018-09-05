@@ -10,11 +10,11 @@ namespace BBS.Models.Roles
     [Table("role")]
     public class Role : Entity
     {
-        [Column("role_name", TypeName = "nvarchar")]
+        [Column("role_name", TypeName = "nvarchar(50)")]
         public string Name { get; set; }
         [Column("pass", TypeName = "int")]
         public int Password { get; set; }
-        [Column("reg_name", TypeName = "nvarchar")]
+        [Column("reg_name", TypeName = "nvarchar(50)")]
         public string RegName { get; set; }
     }
 }

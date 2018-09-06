@@ -12,5 +12,6 @@ namespace BBS.DBContext
         public DBcontext(DbContextOptions<DBcontext> options) : base(options) { }
 
         public DbSet<Role> roles { get; set; }
+        public DbSet<RoleInfo> roleinfos { get; set; }
     }
 }
